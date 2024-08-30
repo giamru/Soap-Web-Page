@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 body {
     background-color: #f5f5f5;
     color: black;
@@ -37,6 +38,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
 }
 
 .nav-bar a:hover {
@@ -75,7 +77,7 @@ body {
     display: block;
     content: '';
     height: 3px;
-    width: 100%;
+    width: 1800px;
     background-color: #6e4e35;
     margin: 0;
 }
@@ -84,7 +86,30 @@ body {
     display: block;
     content: '';
     height: 3px;
-    width: 100%;
+    width: 1800px;
     background-color: #6e4e35;
     margin: 0;
 }
+
+.hero h1 {
+    font-family: 'Arboreto', sans-serif;
+    font-size: 182.25px;
+    color: #f5f5f5;
+    text-shadow:
+    -1px -1px 2px #AD947F,
+    1px -1px 2px #AD947F,
+    -1px 1px 2px #AD947F,
+    1px 1px 2px #AD947F;
+}
+
+.hero h2 {
+    font-family: 'Arboreto', sans-serif;
+    font-size: 121.5px;
+    color: #f5f5f5;
+    text-shadow:
+    -1px -1px 2px #AD947F,
+    1px -1px 2px #AD947F,
+    -1px 1px 2px #AD947F,
+    1px 1px 2px #AD947F;
+}
+
